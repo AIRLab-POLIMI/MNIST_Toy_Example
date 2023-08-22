@@ -1,0 +1,14 @@
+experiment_name: baseline
+
+epochs: 20
+learning_rate: 0.003
+momentum: 0.9
+batch_size: 64
+input_size: 784
+hidden_sizes: [128, 64]
+output_size: 10
+
+weigths_folder: weigths
+dataset_folder: private_datasets/mnist/MNIST_data/
+log_dir: logs
+tb_dir: tb_files

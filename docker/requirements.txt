@@ -1,0 +1,11 @@
+numpy
+protobuf==3.20.0
+tensorboardX
+opencv-python
+einops
+notebook
+scipy
+scikit-image
+matplotlib
+tensorboard
+torch-tb-profiler
