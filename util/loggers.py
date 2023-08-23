@@ -24,8 +24,4 @@ def get_logger(log_dir, experiment_name):
 def get_tb_logger(tb_dir,experiment_name):
     tb_experiment_dir = os.path.join(tb_dir,experiment_name)
     os.makedirs(tb_dir, exist_ok=True) 
-    os.makedirs(tb_experiment_dir, exist_ok=True) 
-
-    writer = SummaryWriter(os.path.join(tb_experiment_dir,experiment_name))
-
-    return writer
+    os.makedirs(tb_expe
